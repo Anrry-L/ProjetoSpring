@@ -1,4 +1,4 @@
-package dev.Obi.ProjetoSpring;
+package dev.Obi.ProjetoSpring.Ninjas;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
