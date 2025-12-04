@@ -25,13 +25,4 @@ public class MissoesModel {
     @OneToMany(mappedBy = "missoes")
     private List<NinjaModel> ninja;
 
-    public MissoesModel(){
-
-    }
-
-    public MissoesModel(String nome, String dificuldade){
-        this.nome = nome;
-        this.dificuldade = dificuldade;
-    }
-
 }
